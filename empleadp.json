@@ -1,0 +1,24 @@
+{
+    "empleado":{
+        "nom":"Alex",
+        "cognom":"Perez",
+        "direccion":"C/Roser,58",
+        "telefono":4585526665
+    },
+    "empleado1":{
+        "nom":"Ana",
+        "cognom":"Perez",
+        "direccion":"C/Roser,5",
+        "ciutat":"Barcelona",
+        "email":"hddh@gmial.com",
+        "telefono":45855265
+    },
+    "empleado2":{
+        "nom":"Antonio",
+        "cognom":"Ramirez",
+        "direccion":"C/Roser,78",
+        "ciutat":"Barcelona",
+        "email":"hddddh@gmial.com",
+        "telefono":4585522265
+    }
+}

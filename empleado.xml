@@ -1,6 +1,24 @@
-<empleado>
-    <nom>Alex</nom>
-    <cognom>Perez</cognom>
-    <direccion>C/Roser,58</direccion>
-    <telefono>4585526665</telefono>
-</empleado>
+<empresa>
+    <empleado>
+        <nom>Alex</nom>
+        <cognom>Perez</cognom>
+        <direccion>C/Roser,58</direccion>
+        <telefono>4585526665</telefono>
+    </empleado>
+    <empleado1>
+        <nom>Ana</nom>
+        <cognom>Perez</cognom>
+        <direccion>C/Roser,5</direccion>
+        <ciutat>Barcelona</ciutat>
+        <email>hddh@gmial.com</email>
+        <telefono>45855265</telefono>
+    </empleado1>
+    <empleado2>
+        <nom>Antonio</nom>
+        <cognom>Ramirez</cognom>
+        <direccion>C/Roser,78</direccion>
+        <ciutat>Barcelona</ciutat>
+        <email>hddddh@gmial.com</email>
+        <telefono>4585522265</telefono>
+    </empleado2>
+</empresa>
