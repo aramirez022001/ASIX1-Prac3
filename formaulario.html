@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formaulario.css">
+</head>
+<body>
+    <form action="segundo.html">
+    <h2>El meu primer formulari</h2>
+    <h5><strong>teves dades personals:</strong> </h5>
+    <label for="Name">Nom:</label>
+    <input type="text" id="Name" name="Name" size="40"/>
+    <label for="Name" >Cognom:</label>
+    <input type="text" id="Name" name="Name"size="40" id="cog"/>
+       <br>
+    <br>
+    
+    <label id="stuff" for="thing" >Edat</label>
+    <input  id="thing" type="number" value="0" size="60"/>
+
+
+    <h4>Marca els llenguatges de programació que més t'agraden:</h4>
+    <input type="checkbox" id="pro" name="Name"/>    
+    <label for="Name">HTML</label><br>
+    <input type="checkbox" id="pro" name="Name"/>
+    <label for="Name">CSS</label><br>
+
+    <input type="checkbox" id="pro" name="Name"/>
+    <label for="Name">XML</label><br>
+  
+    
+
+    <h4>Selecciona el cicle formatiu que vols cursar:</h4>
+    <input type="radio" id="curs" name="Name" />
+    <label for="Name">ASIX</label>
+    
+    <br>
+    <input type="radio" id="curs" name="Name"/>
+    <label for="Name">DAM</label>
+    
+    <br>
+    <input type="radio" id="curs" name="Name"/>
+    <label for="Name">DAM</label>
+    
+    <br>
+    <br>
+    <label for="curs">Selecciona el curs:</label>
+    <select name="curs" id="curs">
+        <option>Primer</option>
+        <option>Segundo</option>
+        </select>
+        <br>
+        <br>
+        <label for="od">Observación:</label> 
+        <br>
+        <br>   
+    <textarea name="od" id="od" cols="50" rows="10">Escriu un misatge</textarea>
+        <br>
+        <br> 
+    <input type="submit" value="submit"/>
+        
+    </form>
+
+</body>
+</html>
