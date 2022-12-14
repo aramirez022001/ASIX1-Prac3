@@ -1,0 +1,70 @@
+/*primer ejercicio*/
+/*las classes que estan por colores poseen un ancho y un alto, y posicionamineto para poder ajustar las cajas*/
+.yellow{
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+.blue{
+    background-color: blue;
+    width: 160px;
+    height: 120px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.red{
+    background-color: red;
+    width: 160px;
+    height: 120px;
+    margin-left: 100px;
+    position: absolute;
+    top: 140px;
+    z-index: -1;
+    
+}
+.green{
+    background-color: green;
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    position: relative;
+    top: 50px;
+  
+}
+/*tenrmos la id root, para ajustar las cuatros cajas al centro, esta compuesto por un div padre.*/
+#root{
+    text-align: center;
+    vertical-align: 60px;
+
+}
+/*segunda practica*/
+/*centramos la imgarn y le damos un ancho y alto, utilizamos el opacity para poner la imagen transparente*/
+.img{
+    text-align: center;
+    opacity: 0.5;
+    width: 750px;
+    height: 12px;
+    
+}
+/*le damos una posicion a los texto1 y 2, procedemos a juastarlo con la imagen*/
+
+.texto1{
+ 
+    width: 45px;
+    height: 40px;
+    margin-left: 235px;
+    position: relative;
+    text-align: center;
+    top: 105px;
+}
+
+.texto2{
+    width: 45px;
+    height: 40px;
+    margin-left: 400px;
+    text-align: center;
+    position: relative;
+    right: 50px;
+}
